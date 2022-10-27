@@ -1,0 +1,68 @@
+Array Iterating Method
+1.Loop(for,while,do while,For Each,for in,for of)
+2.Map
+3.Filter
+4.Iterator
+
+1.Loop
+    a)For loop:Basically uses three expression and usess external loop
+            * Initialization:to initialize the loop variable with a starting value and it will only be executed once
+            * Condition:defines when the loop will stop looping
+            * Update Statement:is executed every time after the code block within the loop has been executed. Normally it’s being used to increment the loop variable
+            // syntax:for(int i=0;i<10;i++)
+
+    b)While loop:through a block of code as long as a specified condition is true
+            //syntax
+            // while (condition) {
+            //  code block to be executed
+            // }
+
+    c)Do while:The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+                //syntax
+                // do {
+                // code block to be executed
+                // }
+                // while (condition);
+
+    d)For Each:Useses internal loop.
+                //Syntax
+                //value.forEach((val)=>
+                //code block to be executed
+                //)
+    e)For in:Work with index value
+                //Syntax
+                //for(let v in num)
+                //code block to be executed
+                //)
+    e)For of:Work with  value
+                //Syntax
+                //for(let v of  num)
+                //code block to be executed
+                //)
+
+2)map()
+
+    Method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+            // const array1 = [1, 4, 9, 16];
+            // const map1 = array1.map(x => x * 2);
+            // console.log(map1);
+3)filter()
+
+    Method creates a new array filled with elements that pass a test provided by a function and does not change the original array.
+    //syntax
+    // const ages = [32, 33, 16, 40];
+    // const result = ages.filter(checkAdult);
+
+    // function checkAdult(age) {
+    // return age >= 18;
+    // }
+
+4)Iterator
+        Controll on collection,with help of symbol
+        //syntax
+        //val[symbol.iterator]()
+
+Few more methods are there to iterate the array in javascript
+like every(),some() more
+
